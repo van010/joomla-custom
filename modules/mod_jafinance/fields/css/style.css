@@ -1,0 +1,82 @@
+input.el-input__inner[type="text"] {
+	height: 40px;
+}
+.el-tabs__item.is-closable {
+  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+  -moz-user-select: none; /* mozilla browsers */
+  -khtml-user-select: none; /* webkit (konqueror) browsers */
+  -ms-user-select: none; /* IE10+ */
+}
+
+.el-message-box {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  max-height: 90%;
+  overflow: auto;
+}
+
+.ja-preview-content > div {
+  margin: 0 auto;
+  width: 100% !important;
+}
+
+.el-select > .el-input .el-input__inner {
+  background: #fff;
+}
+
+.ja-finance-config-wrap {
+  padding: 20px 0;
+}
+
+.ja-input-symbol-tab-list {
+  position: relative;
+}
+
+.ja-asb-btns .el-button {
+  position: absolute;
+  right: 0;
+  top: -65px;
+}
+
+.el-icon-remove {
+  color: #f56c6c;
+}
+
+.el-icon-circle-plus {
+  color: #67c23a;
+  margin-top: 10px;
+}
+
+#ja-finance-app .ja-finance-selects .control-group {
+  margin-bottom: 0;
+}
+
+#ja-finance-app .ja-finance-selects .control-label {
+  padding-top: 12px;
+  width: auto;
+  max-width: unset;
+  padding-right: 12px;
+}
+
+#ja-finance-app .ja-finance-selects .controls {
+  margin-left: 0;
+}
+
+.ja-symbol-autocomplete {
+  width: 350px !important;
+}
+
+.el-autocomplete-suggestion__list .item-value {
+  font-weight: bold;
+  border-top: dashed 1px #ddd;
+}
+
+.el-autocomplete-suggestion__list .item-desc {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.symbol-list-search {
+  width: 100%;
+}

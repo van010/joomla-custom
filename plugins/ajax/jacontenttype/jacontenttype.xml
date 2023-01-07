@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="ajax" method="upgrade">
+	<name>Ajax - JA Content Type</name>
+	<author>JoomlArt</author>
+	<creationDate>August 31, 2021</creationDate>
+	<copyright>(C) 2014 Joomlart. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>www.joomlart.com</authorUrl>
+	<version>1.2.0</version>
+	<updateservers>
+    <server type="extension">http://update.joomlart.com/service/tracking/j31/plg_ajax_jacontenttype.xml</server>
+	</updateservers>
+	<description>JA Content Type Plugin</description>
+	<files>
+		<filename plugin="jacontenttype">jacontenttype.php</filename>
+		<filename>index.html</filename>
+		<folder>layouts</folder>
+	</files>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>
